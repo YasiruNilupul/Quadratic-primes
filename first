@@ -1,7 +1,6 @@
 n=2
 def check_prime(number):
   score=0
-  
   for i in range(1,number+1):
     if number%i ==0:
       score+=1
@@ -9,7 +8,7 @@ def check_prime(number):
        return "yes"  
   else:
      return 'no' 
-    
+   
  
 
 eq_value=[]
