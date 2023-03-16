@@ -1,6 +1,7 @@
 eq_value=[]
 for a in range(-999,1000):
   for b in range(0,1001):
+   if a**2<4*b:
       s=0
       x=0
       while True:
